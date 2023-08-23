@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap');
+
+:root {
+    --black-blue: #102940;
+    --itens-color: #FFFF;
+    --orange-default: #FF6000;
+    --yellow-default: #F1C84A;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    min-height: 100vh;
+}
+
+header {
+    height: 80px;
+    background-color: var(--black-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5% 0 5%;
+}
+
+.logo_header {
+    width: 150px;
+    background-color: var(--itens-color);
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    -webkit-box-shadow: 1px 14px 17px 0px rgba(0,0,0,0.51);
+    -moz-box-shadow: 1px 14px 17px 0px rgba(0,0,0,0.51);
+    box-shadow: 1px 14px 17px 0px rgba(0,0,0,0.51);
+}
+
+.logo_header img{
+    height: 70px;
+}
+
+nav{
+    width: 30%;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: var(--itens-color);
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    opacity: 0.7;
+}
+
+.buttons_header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.button_report_header {
+    background-color: var(--orange-default);
+    color: var(--itens-color);
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+}
+
+.button_report_header:hover{
+    cursor: pointer;
+    opacity: 0.7 ;
+}
+
+/* Home page */
+
+.movie_home{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.sobre_home{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--itens-color);
+}
+
+.tutorial_home {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--yellow-default);
+}   
