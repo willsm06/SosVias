@@ -1,111 +1,214 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap");
+
+@font-face {
+  font-family: "Gravel Gang";
+  src: url("../../fonts/Gravel-Gang.ttf") format("truetype"), url('../../Gravel-Gang.woff') format('woff'), url('../../Gravel-Gang.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 :root {
-    --black-blue: #102940;
-    --itens-color: #FFFF;
-    --orange-default: #FF6000;
-    --yellow-default: #F1C84A;
+  --black-blue: #102940;
+  --itens-color: #ffff;
+  --orange-default: #ff6000;
+  --yellow-default: #f1c84a;
+  --brown-default: #A85622;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
-    min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  min-height: 100vh;
 }
 
 header {
-    height: 80px;
-    background-color: var(--black-blue);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 5% 0 5%;
+  height: 80px;
+  background-color: var(--black-blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5% 0 5%;
 }
 
 .logo_header {
-    width: 150px;
-    background-color: var(--itens-color);
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0 0 20px 20px;
-    -webkit-box-shadow: 1px 14px 17px 0px rgba(0,0,0,0.51);
-    -moz-box-shadow: 1px 14px 17px 0px rgba(0,0,0,0.51);
-    box-shadow: 1px 14px 17px 0px rgba(0,0,0,0.51);
+  width: 150px;
+  background-color: var(--itens-color);
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 20px 20px;
+  -webkit-box-shadow: 1px 14px 17px 0px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 1px 14px 17px 0px rgba(0, 0, 0, 0.51);
+  box-shadow: 1px 14px 17px 0px rgba(0, 0, 0, 0.51);
 }
 
-.logo_header img{
-    height: 70px;
+.logo_header img {
+  padding-top: 10px;
+  height: 70px;
 }
 
-nav{
-    width: 30%;
+nav {
+  width: 30%;
 }
 
-nav ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0;
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
 }
 
-nav ul li{
-    list-style: none;
+nav ul li {
+  list-style: none;
 }
 
-nav ul li a{
-    color: var(--itens-color);
-    font-weight: 700;
-    font-size: 16px;
-    text-decoration: none;
+nav ul li a {
+  color: var(--itens-color);
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
 }
 
-nav ul li a:hover{
-    opacity: 0.7;
+nav ul li a:hover {
+  opacity: 0.7;
 }
 
 .buttons_header {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .button_report_header {
-    background-color: var(--orange-default);
-    color: var(--itens-color);
-    padding: 10px 30px;
-    border-radius: 5px;
-    border: none;
-    font-weight: 700;
+  background-color: var(--orange-default);
+  color: var(--itens-color);
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
 }
 
-.button_report_header:hover{
-    cursor: pointer;
-    opacity: 0.7 ;
+.button_report_header:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 /* Home page */
 
-.movie_home{
-    height: 100vh;
-    width: 100%;
-    background-color: black;
+.initial_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(100vh - 80px);
+    position: relative;
 }
 
-.sobre_home{
-    height: 100vh;
-    width: 100%;
-    background-color: var(--itens-color);
+.initial_left_content {
+    font-family: 'Gravel Gang', sans-serif;
+    font-size: 100px;
 }
 
-.tutorial_home {
+.initial_right_content {
+    height: 400px;
+}
+
+.rodovia_detail {
+    position: absolute;
+    top: 90%;
+    left: 0;
+    z-index: 10;
+}
+
+.second_wrapper {
+    position: relative;
+    background-image: url("../img/bg_orange.png");
+    background-position: center center;
+    background-repeat: repeat;
     height: 100vh;
-    width: 100%;
-    background-color: var(--yellow-default);
-}   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    color: #ffff;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.second_left_content {
+    width: 35%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    z-index: 10;
+}
+
+.second_left_content h2{
+    font-family: 'Gravel Gang', sans-serif;
+    font-size: 100px;
+    margin: 0;
+}
+
+.second_right_content {
+    height: 300px;
+    z-index: 10;
+}
+
+.street_detail {
+    position: absolute;
+    width: 2500px;
+    top: 50%;
+    left: 0;
+    z-index: 0;
+}
+
+.info_wrapper {
+    height: 350px;
+    background-color: #fff;
+}
+
+.app_wrapper {
+    background-color: var(--brown-default);
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    height: 100vh;
+    color: #ffff;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.app_wrapper img{
+    height: 700px;
+}
+
+.content_app {
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 47%;
+    font-size: 30px;
+}
+
+.content_app h2{
+    font-family: 'Gravel Gang', sans-serif;
+    font-size: 80px;
+    margin: 0;
+}
+
+.content_app button{
+    margin-top: 30px;
+    border: none;
+    background: var(--yellow-default);
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
