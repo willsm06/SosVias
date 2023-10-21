@@ -1,0 +1,120 @@
+h2 {
+  letter-spacing: 1px;
+}
+
+.initial_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: calc(100vh - 80px);
+  position: relative;
+}
+
+.initial_left_content {
+  font-family: "Gravel Gang", sans-serif;
+  font-size: 100px;
+}
+
+.initial_right_content {
+  height: 400px;
+}
+
+.rodovia_detail {
+  position: absolute;
+  top: 90%;
+  left: 0;
+  z-index: 10;
+}
+
+.second_wrapper {
+  position: relative;
+  background-image: url("../img/bg_orange.png");
+  background-position: center center;
+  background-repeat: repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  color: #ffff;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.second_left_content {
+  width: 35%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  z-index: 10;
+}
+
+.second_left_content h2 {
+  font-family: "Gravel Gang", sans-serif;
+  font-size: 100px;
+  margin: 0;
+}
+
+.second_right_content {
+  height: 300px;
+  z-index: 10;
+}
+
+.street_detail {
+  position: absolute;
+  width: 2500px;
+  top: 50%;
+  left: 0;
+  z-index: 0;
+}
+
+.info_wrapper {
+  height: 350px;
+  background-color: #fff;
+}
+
+.app_wrapper {
+  background-color: var(--brown-default);
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  height: 100vh;
+  color: #ffff;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.app_wrapper img {
+  height: 700px;
+}
+
+.content_app {
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  width: 47%;
+  font-size: 30px;
+}
+
+.content_app h2 {
+  font-family: "Gravel Gang", sans-serif;
+  font-size: 80px;
+  margin: 0;
+}
+
+.content_app button {
+  margin-top: 30px;
+  border: none;
+  background: var(--yellow-default);
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.content_app button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}

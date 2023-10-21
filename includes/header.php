@@ -6,9 +6,9 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#">SOBRE NÓS</a></li>
-                <li><a href="#">NOSSO APP</a></li>
-                <li><a href="#">SUPORTE</a></li>
+                <li><a href="#" class="link_active1">SOBRE NÓS</a></li>
+                <li><a href="nossoapp.php" class="link_active2">NOSSO APP</a></li>
+                <li><a href="#" class="link_active3">SUPORTE</a></li>
             </ul>
         </nav>
         <div class="buttons_header">

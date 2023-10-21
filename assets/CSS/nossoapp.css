@@ -1,0 +1,114 @@
+h2 {
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+.link_active2 {
+  color: var(--orange-default);
+}
+
+.app_wrapper {
+  background-color: var(--brown-default);
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  color: #ffff;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.app_wrapper img {
+  height: 600px;
+}
+
+.content_app {
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  width: 47%;
+  font-size: 30px;
+}
+
+.content_app h2 {
+  font-family: "Gravel Gang", sans-serif;
+  font-size: 80px;
+  margin: 0;
+}
+
+.content_app button {
+  margin-top: 30px;
+  border: none;
+  background: var(--yellow-default);
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.denuncia_wrapper {
+  background-color: var(--black-blue);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+}
+
+.denuncia_wrapper img {
+  height: 600px;
+}
+
+.denuncia_wrapper h2 {
+  font-family: "Gravel Gang", sans-serif;
+  font-size: 100px;
+  margin: 0;
+}
+
+.info_wrapper {
+  height: 200px;
+  background-color: #fff;
+  color: #000;
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.dowload_app {
+  background-color: var(--brown-default);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+}
+
+.logo_wrapper {
+  height: 50vh;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.logo_wrapper img {
+  height: 360px;
+}
+
+.images_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}
+
+.images_wrapper img {
+  height: 100px;
+}

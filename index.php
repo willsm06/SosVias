@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <title>Home - SosVias</title>
 </head>
 
@@ -39,7 +40,7 @@
             <img src="assets/img/street_detail.png" class="street_detail" alt="street detail">
         </div>
         <div class="info_wrapper">
-
+            
         </div>
         <div class="app_wrapper">
             <img src="assets/img/app_hand.png" alt="hand">
@@ -52,7 +53,7 @@
                 since the 1500s, when an unknown
                 printer took a galley of type and
                 scrambled it to make.
-                <a href=""><button>Saiba Mais</button></a>
+                <a href="nossoapp.php"><button>Saiba Mais</button></a>
             </div>
         </div>
     </main>
