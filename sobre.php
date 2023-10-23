@@ -24,20 +24,14 @@
         </div>
         <div class="second_wrapper">
                 <h2>BEM-VINDO A SOS VIAS</h2>
-                Lorem Ipsum is simply dummy
-                text of the printing and typesetting
-                industry. Lorem Ipsum has been the
-                industry's standard dummy text ever
-                since the 1500s, when an unknown
-                printer took a galley of type and
-                scrambled it to make.
-                Lorem Ipsum is simply dummy
-                text of the printing and typesetting
-                industry. Lorem Ipsum has been the
-                industry's standard dummy text ever
-                since the 1500s, when an unknown
-                printer took a galley of type and
-                scrambled it to make.
+                Na SOS Vias, nossa missão é 
+                fornecer assistência rápida e 
+                eficaz em situações de emergência 
+                nas estradas. Estamos aqui para garantir 
+                a segurança e a tranquilidade dos motoristas, 
+                passageiros e pedestres em todo o país. Se você 
+                se deparar com uma situação de emergência nas vias, 
+                estamos prontos para ajudar.
         </div>
     </main>
 </body>

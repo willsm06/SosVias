@@ -33,8 +33,9 @@ h2 {
   color: #ffff;
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
 }
 
 .second_wrapper h2 {

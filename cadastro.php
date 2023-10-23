@@ -14,23 +14,20 @@
         <div class="cadastro_wrapper">
         <h1>Crie sua conta na SOS Vias!</h1>
         <h2>Ja tem uma conta?<br><a href="">Clique aqui e baixe o app</a></h2>
-            <form action="processar.php">
-                <label for="txtNome">Nome: &nbsp
+            <form name="formulario" method="post" action="validar.php">
+                <label for="txtNome">Nome Completo:* &nbsp
                     <input type="text" name="txtNome" id="txtNome" required>
                 </label>
-                <label for="txtSobrenome">Sobrenome: &nbsp<br>
-                    <input type="text" name="txtSobrenome" id="txtSobrenome" required>
-                </label>
-                <label for="txtCpf">Cpf: &nbsp
+                <label for="txtCpf">Cpf:* &nbsp
                     <input type="text" name="txtCpf" id="txtCpf" required>
                 </label>
-                <label for="txtTel">Telefone: &nbsp
+                <label for="txtTel">Telefone:* &nbsp
                     <input type="text" name="txtTel" id="txtTel" required>
                 </label>
-                <label for="txtEmail">Email: &nbsp
-                    <input type="text" name="txtEmail" id="txtEmail" required>
+                <label for="txtEmail">Email:* &nbsp
+                    <input type="email" name="txtEmail" id="txtEmail" required>
                 </label>
-                <label for="UF">Estado: &nbsp
+                <label for="UF">Estado:* &nbsp
                     <select name="UF" id="UF" class="Estado" required>
                         <option value="AC">Acre</option>
                         <option value="AL">Alagoas</option>
@@ -63,6 +60,20 @@
                         <option value="" selected>Selecione um Estado</option>
                     </select>
                 </label>
+                <label for="senha">Senha:* &nbsp
+                    <input type="password" name="senha" id="senha" required>
+                </label>
+                <label for="confsenha">Confirmação Senha:* &nbsp
+                    <input type="password" name="confSenha" id="confSenha" required>
+                </label>
+                <?php
+                
+                session_start();
+                    if (isset($_SESSION['erro']) && $_SESSION['erro'] == 1){
+                        echo "<p style='color: red;'>As senhas não batem!</p>";
+                    }
+                    else{}
+                ?>
                 <br>
                 <input type="submit" value="Cadastrar">
             </form>

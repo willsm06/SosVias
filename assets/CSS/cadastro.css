@@ -16,62 +16,67 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align:center;
+  text-align: center;
 }
 
-.cadastro_wrapper h2{
+.cadastro_wrapper h2 {
   color: #000;
   font-size: 20px;
   margin-top: 0;
 }
 
-.cadastro_wrapper a{
+.cadastro_wrapper a {
   color: var(--orange-default);
 }
 
 form {
-    font-weight: bolder;
-    font-size: 20px;
-    color: #000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 80%;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80%;
 }
 
-input[type=text] {
-    font-size: 16px;
-    color: #000;
-    background: none;
-    border: none;
-    border-bottom: 1px solid #000;
-    height: 30px;
-    width: 300px;
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  font-size: 16px;
+  color: #000;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #000;
+  height: 30px;
+  width: 300px;
 }
 
 label {
-    display: flex;  
-    align-items: center;
-    height: 50px;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
 }
 
 select {
-    color: #000;
-    background: none;
+  color: #000;
+  background: none;
 }
 
-input[type=submit] {
-    font-size: 16px;
-    color: #fff;
-    background: var(--orange-default);
-    border: none;
-    height: 40px;
-    width: 200px;
-    border-radius: 10px;
+input[type="submit"] {
+  font-size: 16px;
+  color: #fff;
+  background: var(--orange-default);
+  border: none;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
-input[type=submit]:hover {
-    cursor: pointer;
-    opacity: 0.7;
+input[type="submit"]:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
