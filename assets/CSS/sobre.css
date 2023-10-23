@@ -1,0 +1,44 @@
+h2 {
+  letter-spacing: 1px;
+}
+
+.link_active1 {
+    color: var(--orange-default);
+  }
+
+.initial_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: calc(100vh - 80px);
+  position: relative;
+}
+
+.initial_left_content {
+  font-family: "Gravel Gang", sans-serif;
+  font-size: 100px;
+}
+
+.initial_right_content {
+  height: 400px;
+}
+
+.second_wrapper {
+  background: var(--orange-default);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.second_wrapper h2 {
+  font-family: "Gravel Gang", sans-serif;
+  font-size: 100px;
+  margin: 0;
+}

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/nossoapp.css">
-    <title>Home - SosVias</title>
+    <title>Nosso App - SosVias</title>
 </head>
 
 <body>
