@@ -17,12 +17,4 @@ $query = "INSERT into usuario (nome_usuario, cpf_usuario, tel_usuario, email_usu
 
 $sql = mysqli_query($conn,$query);
 $n = mysqli_affected_rows($conn);
-
-if ($pass == $cPass) {
-    $_SESSION['erro'] = 2;
-    header("location:index.php");
-} else {
-    $_SESSION['erro'] = 1;
-    header("location:cadastro.php");
-}
 ?>

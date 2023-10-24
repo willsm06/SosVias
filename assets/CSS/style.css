@@ -44,6 +44,7 @@ header {
   -webkit-box-shadow: 1px 14px 17px 0px rgba(0, 0, 0, 0.51);
   -moz-box-shadow: 1px 14px 17px 0px rgba(0, 0, 0, 0.51);
   box-shadow: 1px 14px 17px 0px rgba(0, 0, 0, 0.51);
+  z-index: 15;
 }
 
 .logo_header img {

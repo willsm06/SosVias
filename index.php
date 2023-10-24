@@ -1,12 +1,3 @@
-<?php
-session_start();
-if (isset($_SESSION['erro']) && $_SESSION['erro'] == 2) {
-    echo "<script>
-        alert('Cadastro realizado com sucesso!');
-    </script>";
-} else {
-}
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -35,13 +26,7 @@ if (isset($_SESSION['erro']) && $_SESSION['erro'] == 2) {
         <div class="second_wrapper">
             <div class="second_left_content">
                 <h2>QUEM SOMOS</h2>
-                Lorem Ipsum is simply dummy
-                text of the printing and typesetting
-                industry. Lorem Ipsum has been the
-                industry's standard dummy text ever
-                since the 1500s, when an unknown
-                printer took a galley of type and
-                scrambled it to make.
+                SOS Vias, sua parceira para viagens mais seguras. Oferecemos um aplicativo exclusivo que permite aos usuários relatarem problemas nas vias, como buracos, em tempo real, 24 horas por dia. 
             </div>
             <div class="second_right_content">
                 <img src="assets/img/van_detail.png" style="height: 100%;" alt="logo sos">
@@ -53,7 +38,7 @@ if (isset($_SESSION['erro']) && $_SESSION['erro'] == 2) {
                 <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90" fill="none">
                     <path d="M79.0336 75.6567C84.4477 69.9276 88.0314 62.9397 89.3898 55.4631C90.7482 47.9865 89.8286 40.3113 86.7323 33.2831C83.636 26.2549 78.4832 20.1465 71.8416 15.6309C65.2 11.1153 57.3274 8.36772 49.0911 7.69092V3.74984C49.0911 2.75532 48.66 1.80153 47.8928 1.0983C47.1256 0.395071 46.085 0 45 0C43.915 0 42.8744 0.395071 42.1072 1.0983C41.34 1.80153 40.9089 2.75532 40.9089 3.74984V7.69092C32.6726 8.36772 24.8 11.1153 18.1584 15.6309C11.5168 20.1465 6.36404 26.2549 3.26774 33.2831C0.17145 40.3113 -0.748163 47.9865 0.610224 55.4631C1.96861 62.9397 5.55227 69.9276 10.9664 75.6567C8.82827 76.6262 7.04154 78.1416 5.82139 80.0205C4.60125 81.8993 3.99974 84.0613 4.08929 86.2463C4.08929 87.2408 4.52032 88.1946 5.28754 88.8978C6.05477 89.601 7.09534 89.9961 8.18036 89.9961C9.26538 89.9961 10.306 89.601 11.0732 88.8978C11.8404 88.1946 12.2714 87.2408 12.2714 86.2463C12.2374 85.0904 12.6901 83.967 13.5356 83.1089C14.3812 82.2508 15.5546 81.724 16.8125 81.6377C17.0939 81.5886 17.3684 81.5106 17.6307 81.4052C25.4673 86.9764 35.103 90 45.0205 90C54.9379 90 64.5736 86.9764 72.4102 81.4052C72.6497 81.5063 72.8989 81.5867 73.1547 81.6452C74.4171 81.7241 75.5975 82.2467 76.4496 83.1039C77.3018 83.9612 77.76 85.0869 77.7286 86.2463C77.7286 87.2408 78.1596 88.1946 78.9268 88.8978C79.694 89.601 80.7346 89.9961 81.8196 89.9961C82.9047 89.9961 83.9452 89.601 84.7125 88.8978C85.4797 88.1946 85.9107 87.2408 85.9107 86.2463C86.0003 84.0613 85.3988 81.8993 84.1786 80.0205C82.9585 78.1416 81.1717 76.6262 79.0336 75.6567ZM60.1656 58.8987C59.3984 59.6017 58.358 59.9966 57.2732 59.9966C56.1884 59.9966 55.148 59.6017 54.3808 58.8987L42.1076 47.6492C41.3403 46.9461 40.9092 45.9925 40.9089 44.9981V26.2489C40.9089 25.2543 41.34 24.3006 42.1072 23.5973C42.8744 22.8941 43.915 22.499 45 22.499C46.085 22.499 47.1256 22.8941 47.8928 23.5973C48.66 24.3006 49.0911 25.2543 49.0911 26.2489V43.4456L60.1656 53.5964C60.9326 54.2996 61.3634 55.2532 61.3634 56.2476C61.3634 57.2419 60.9326 58.1955 60.1656 58.8987Z" fill="#A85622" />
                 </svg>
-                <p>+99</p>
+                <p>24h<br>Por dia</p>
             </div>
             <div class="info_content">
                 <svg xmlns="http://www.w3.org/2000/svg" width="94" height="87" viewBox="0 0 94 87" fill="none">
@@ -66,7 +51,7 @@ if (isset($_SESSION['erro']) && $_SESSION['erro'] == 2) {
                         </clipPath>
                     </defs>
                 </svg>
-                <p>+99</p>
+                <p>+10<br>unidades</p>
             </div>
             <div class="info_content">
                 <svg xmlns="http://www.w3.org/2000/svg" width="73" height="68" viewBox="0 0 73 68" fill="none">
@@ -79,20 +64,14 @@ if (isset($_SESSION['erro']) && $_SESSION['erro'] == 2) {
                         </clipPath>
                     </defs>
                 </svg>
-                <p>+99</p>
+                <p>Atendimento<br>Rápido</p>
             </div>
         </div>
         <div class="app_wrapper">
             <img src="assets/img/app_hand.png" alt="hand">
             <div class="content_app">
                 <h2>CONHEÇA NOSSO APP</h2>
-                Lorem Ipsum is simply dummy
-                text of the printing and typesetting
-                industry. Lorem Ipsum has been the
-                industry's standard dummy text ever
-                since the 1500s, when an unknown
-                printer took a galley of type and
-                scrambled it to make.
+                Convidamos você a conhecer nosso aplicativo inovador! Na SOS Vias, estamos comprometidos em melhorar a segurança viária. Descubra como nosso aplicativo pode fazer a diferença em suas viagens
                 <a href="nossoapp.php"><button>Saiba Mais</button></a>
             </div>
         </div>

@@ -13,14 +13,7 @@
     <?php require_once("includes/header.php") ?>
     <main>
         <div class="initial_wrapper">
-            <div class="initial_left_content">
-                RESPOSTAS <br>
-                RÁPIDAS VIAS <br>
-                MAIS SEGURAS
-            </div>
-            <div class="initial_right_content">
-                <img src="assets/img/logo_sos.png" style="height: 100%;" alt="logo sos">
-            </div>
+            <div class="movie"></div>
         </div>
         <div class="second_wrapper">
                 <h2>BEM-VINDO A SOS VIAS</h2>

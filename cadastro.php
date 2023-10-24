@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/cadastro.css">
+    <script src="assets/js/cadastro.js"></script>
     <title>Cadastro - SosVias</title>
 </head>
 
@@ -16,16 +17,18 @@
         <h2>Ja tem uma conta?<br><a href="">Clique aqui e baixe o app</a></h2>
             <form name="formulario" method="post" action="validar.php">
                 <label for="txtNome">Nome Completo:* &nbsp
-                    <input type="text" name="txtNome" id="txtNome" required>
+                    <input type="text" name="txtNome" id="txtNome" required minlength="4" maxlength="100">
                 </label>
                 <label for="txtCpf">Cpf:* &nbsp
-                    <input type="text" name="txtCpf" id="txtCpf" required>
+                    <input type="text" name="txtCpf" id="txtCpf" required maxlength="14">
                 </label>
+                <span id="cpfAviso" style="color: red;"></span>
                 <label for="txtTel">Telefone:* &nbsp
-                    <input type="text" name="txtTel" id="txtTel" required>
+                    <input type="text" name="txtTel" id="txtTel" required maxlength="14">
                 </label>
+                <span id="telAviso" style="color: red;"></span>
                 <label for="txtEmail">Email:* &nbsp
-                    <input type="email" name="txtEmail" id="txtEmail" required>
+                    <input type="email" name="txtEmail" id="txtEmail" required maxlength="100 ">
                 </label>
                 <label for="UF">Estado:* &nbsp
                     <select name="UF" id="UF" class="Estado" required>

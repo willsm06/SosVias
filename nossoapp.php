@@ -18,13 +18,7 @@
                 <h2>SISTEMA EXCLUSIVO
                     <hr style="width: 100%; background: #ff6000; height: 4px; border: none;">
                 </h2>
-                Lorem Ipsum is simply dummy
-                text of the printing and typesetting
-                industry. Lorem Ipsum has been the
-                industry's standard dummy text ever
-                since the 1500s, when an unknown
-                printer took a galley of type and
-                scrambled it to make.
+                Nós da SoS Vias apresentamos um sistema exclusivo que revoluciona a forma como os usuários lidam com situações de emergência nas estradas. Com anos de experiência no setor de assistência rodoviária, nossa empresa desenvolveu uma solução inovadora que coloca o poder nas mãos dos condutores quando eles mais precisam.
             </div>
         </div>
         <div class="denuncia_wrapper">
