@@ -47,6 +47,7 @@
             <h1>Download <u>100% Gratuito</u></h1>
         </div>
     </main>
+    <?php require_once("includes/footer.php") ?>
 </body>
 
 </html>
