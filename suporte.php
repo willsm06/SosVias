@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/suporte.css">
+    <link rel="icon" type="image/png" href="assets/img/logo_simples.png"/>
     <title>Suporte - SosVias</title>
 </head>
 
@@ -27,12 +28,12 @@
                 Para iniciar o processo dentro do nosso aplicativo, clique na opção Cadastre-se', o que o direcionará de imediato para uma área exclusiva, onde voce podera adicionar as suas informações
             </div>
             <div class="second_right_content">
-                <img src="assets/img/app_map.png" style="height: 100%;" alt="logo sos">
+                <img src="assets/img/passo1.png" style="height: 100%;" alt="logo sos">
             </div>
         </div>
         <div class="second_wrapper">
             <div class="second_right_content">
-                <img src="assets/img/app_map.png" style="height: 100%;" alt="logo sos">
+                <img src="assets/img/passo2.png" style="height: 100%;" alt="logo sos">
             </div>
             <div class="second_left_content">
                 <h2>2° Passo</h2>
@@ -47,7 +48,7 @@
                 Parabéns! Você agora está na seção dedicada à realização imediata de sua denúncia ao vivo. Para proceder com o registro, por favor, preencha as informações necessárias para detalhar a localização e a natureza do problema.
             </div>
             <div class="second_right_content">
-                <img src="assets/img/app_map.png" style="height: 100%;" alt="logo sos">
+                <img src="assets/img/passo3.png" style="height: 100%;" alt="logo sos">
             </div>
         </div>
         <div class="duvidas_wrapper">

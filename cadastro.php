@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/cadastro.css">
     <script src="assets/js/cadastro.js"></script>
+    <link rel="icon" type="image/png" href="assets/img/logo_simples.png"/>
     <title>Cadastro - SosVias</title>
 </head>
 

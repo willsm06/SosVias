@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="icon" type="image/png" href="assets/img/logo_simples.png"/>
     <title>Home - SosVias</title>
 </head>
 
@@ -29,9 +30,8 @@
                 SOS Vias, sua parceira para viagens mais seguras. Oferecemos um aplicativo exclusivo que permite aos usuários relatarem problemas nas vias, como buracos, em tempo real, 24 horas por dia. 
             </div>
             <div class="second_right_content">
-                <img src="assets/img/van_detail.png" style="height: 100%;" alt="logo sos">
+                <img src="assets/img/vansos.png" style="height: 100%;" alt="logo sos">
             </div>
-            <img src="assets/img/street_detail.png" class="street_detail" alt="street detail">
         </div>
         <div class="info_wrapper">
             <div class="info_content">
